@@ -10,6 +10,12 @@ h1 {
   text-align: center;
   font-family: arial, sans-serif;
 }
+
+body {
+  display: block;
+  margin: 8px;
+}
+
 #menu {
   font-size: 80px;
 }
