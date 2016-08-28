@@ -11,6 +11,10 @@ h1 {
   font-family: arial, sans-serif;
 }
 
+div {
+  display: block;
+}
+
 body {
   display: block;
   margin: 8px;
