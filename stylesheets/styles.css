@@ -1,82 +1,11 @@
+
 /********** Base styles **********/
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
-
 h1 {
   margin-bottom: 15px;
   text-align: center;
-  font-family: arial, sans-serif;
-}
-
-div {
-  display: block;
-}
-
-body {
-  display: block;
-  margin: 8px;
-}
-
-#menu {
-  font-size: 80px;
-}
-section h1{
-  position: static;
-  text-align: right;
-  border: 1px solid black;
-}
-
-section {
-  clear: left;
-}
-
-#chicken {
-  background-color: #ffb3b3;
-}
-
-#beef {
-  background-color: #ff3333;
-}
-
-#sushi {
-  background-color: #ffcc66;
-}
-
-p {
-  text-align: center;
-  display: inline;
-  width: 90%;
-  height: auto;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: arial, sans-serif;
-  float: center;
-  margin-right: 10px;
-  padding: 10px;
-}
-
-#p1 {
-  margin-right: 15px;
-  margin-top: 15px;
-  position: relative;
-  display: inline;
-}
-
-#p2 {
-  margin-right: 15px;
-  margin-top: 15px;
-  position: relative;
-    display: inline;
-}
-
-#p3 {
-  margin-right: 15px;
-  margin-top: 15px;
-  position: relative;
-  display: inline;
 }
 
 
@@ -84,14 +13,11 @@ p {
 .row {
   width: 100%;
 }
+
 /********** Large devices only **********/
-@media (min-width: 992px) and (max-width: 1140px) {
+@media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    width: 32%;
-    display: inline;
-    border: 1px solid black;
-    background-color: #d1e0e0;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -130,12 +56,11 @@ p {
     width: 100%;
   }
 }
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
+
+/********** Medium  devices only  **********/
+@media (min-width: 992px) and (max-width: 1199px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid black;
-    background-color: #d1e0e0;
   }
   .col-md-1 {
     width: 8.33%;
@@ -174,49 +99,106 @@ p {
     width: 100%;
   }
 }
-
-/********** Small devices only **********/
-@media (max-width: 767px) {
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+/********** Tablet devices only  **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-sd-1, .col-sd-2, .col-sd-3, .col-sd-4, .col-sd-5, .col-sd-6, .col-sd-7, .col-sd-8, .col-sd-9, .col-sd-10, .col-sd-11, .col-sd-12 {
     float: left;
-    border: 1px solid  black;
-    overflow: hidden;
-    background-color: #d1e0e0;
-  }
-  .col-sm-1 {
+}
+  .col-sd-1 {
     width: 8.33%;
   }
-  .col-sm-2 {
+  .col-sd-2 {
     width: 16.66%;
   }
-  .col-sm-3 {
+  .col-sd-3 {
     width: 25%;
   }
-  .col-sm-4 {
+  .col-sd-4 {
     width: 33.33%;
   }
-  .col-sm-5 {
+  .col-sd-5 {
     width: 41.66%;
   }
-  .col-sm-6 {
+  .col-sd-6 {
     width: 50%;
   }
-  .col-sm-7 {
+  .col-sd-7 {
     width: 58.33%;
   }
-  .col-sm-8 {
+  .col-sd-8 {
     width: 66.66%;
   }
-  .col-sm-9 {
+  .col-sd-9 {
     width: 74.99%;
   }
-  .col-sm-10 {
+  .col-sd-10 {
     width: 83.33%;
   }
-  .col-sm-11 {
+  .col-sd-11 {
     width: 91.66%;
   }
-  .col-sm-12 {
+  .col-sd-12 {
     width: 100%;
   }
+}
+.title 
+{
+  position:absolute;
+  border: 1px solid black;
+  text-align: center;
+  width: 120px;
+  height: 20px;
+  top:0px;
+  right:0px;
+  border-top:0px;
+  border-right:0px;
+  font-family: Helvetica;
+  
+}
+.parr
+{
+  position:relative;
+  border: 1px solid black;
+  background-color: #A52A2A;
+  width: 90%;
+  height: 150px;
+  margin:30px;
+  padding-top: 30px;
+  padding-left: 15px;
+  font-family: Helvetica;
+}
+#chicken
+{
+  color: blue;
+  background-color:rgb(255, 204, 102);
+
+}
+#chickent
+{
+  color:#0B610B;
+  background-color:rgb(255, 204, 102);
+  
+}
+#beef
+{
+  color:blue;
+  background-color:rgb(255, 204, 102);
+
+}
+#beeft
+{
+  color:#FF0040;
+  background-color:rgb(255, 204, 102);
+  
+}#sushi
+{
+  color:blue;
+  background-color:rgb(255, 204, 102);
+
+}
+#sushit
+{
+  color:#F5A9F2;
+  background-color:rgb(255, 204, 102);
+  
 }
